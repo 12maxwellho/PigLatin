@@ -46,10 +46,10 @@ public String pigLatin(String sWord)
 	}
 	else if(findFirstVowel(sWord) > 0) //rule 4: For words that begin with consonants, move the leading consonant(s) to the end of the word and add "ay."
 	{
-		return sWord.substring(nums) + sWord.substring(0,nums) + "ay";
+		return sWord.substring(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                nums) + sWord.substring(0,nums) + "ay";
 	}
 	else
 	{
-		return sWord;	
+		return "ERROR!";	
 	}
 }
